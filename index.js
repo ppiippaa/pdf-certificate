@@ -3,6 +3,7 @@ const path = require("path");
 const { PDFDocument, rgb, StandardFonts } = require("pdf-lib");
 const fontkit = require("@pdf-lib/fontkit");
 
+// Add participant data
 const data = [{ id: 1, name: "test", email: "test@test.cz" }];
 
 async function generateCertificates() {
